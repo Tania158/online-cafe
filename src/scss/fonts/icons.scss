@@ -1,0 +1,50 @@
+%ic {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[class*="_icon-"] {
+	&:before {
+		@extend %ic;
+		display: block;
+	}
+}
+
+._icon-arrow:before {
+	content: "\e900";
+}
+._icon-basket:before {
+	content: "\e901";
+}
+._icon-footer-location:before {
+	content: "\e903";
+}
+._icon-hour:before {
+	content: "\e904";
+}
+._icon-like:before {
+	content: "\e905";
+}
+._icon-location-icon:before {
+	content: "\e906";
+}
+._icon-mail:before {
+	content: "\e907";
+}
+._icon-phone:before {
+	content: "\e908";
+}
+._icon-search:before {
+	content: "\e909";
+}
+._icon-user:before {
+	content: "\e90a";
+}
+._icon-vector:before {
+	content: "\e90b";
+}
